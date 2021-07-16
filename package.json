@@ -1,0 +1,17 @@
+{
+  "name": "react_101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "seneralkan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
+    "slugify": "^1.6.0"
+  }
+}
