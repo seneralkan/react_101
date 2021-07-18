@@ -2,6 +2,8 @@ import './App.css';
 import Header  from './components/Header';
 import User from './components/Users';
 import Counter from './components/Counter';
+import A from './components/A';
+import B from './components/B';
 import {useState} from 'react';
 
 //******************** NOTLAR ********************** */
@@ -60,6 +62,11 @@ function App() {
         </div>
         <div className= "App">
             {isVisible && <Counter />}
+            <A />
+            <B />
+        </div>
+        <div>
+
         </div>
       </div>
     </>
