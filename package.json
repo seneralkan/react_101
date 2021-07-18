@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "node-fetch": "^2.6.1",
+    "react-router-dom": "^5.2.0",
     "slugify": "^1.6.0"
   }
 }
