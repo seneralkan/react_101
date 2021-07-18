@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: slategrey;
+}
+
+label{
+  display: block;
+}
+
+.error{
+  color: red;
+}
