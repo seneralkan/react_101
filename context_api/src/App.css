@@ -1,0 +1,12 @@
+
+.app{
+  height: 100vh;
+  text-align: center;
+}
+
+.app.dark {
+  text-align: center;
+  color: #fff;
+  background-color: #282c34;
+}
+
