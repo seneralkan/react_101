@@ -13,7 +13,7 @@ function ChatForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         //formda onceden default yazilan yazilar ekranda kalmasi icin
-        setmessages((prevState) => [...prevState, {message}]);
+        setmessages((prevState) => [...prevState, {message, fromMe: true}]);
         //forma mesaj gonder
         sendMessage(message);
         setmessage("");
